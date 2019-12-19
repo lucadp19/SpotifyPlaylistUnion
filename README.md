@@ -1,6 +1,6 @@
 # Spotify Playlist Union
 
-A simple Python script that **adds all the songs** in a list of playlists in a **destination playlist**.
+A simple Python script that **adds all the songs** in a list of playlists to a **destination playlist**.
 
 Useful if you have several playlists, for example divided by genre, and you want **a single playlist that contains all the songs you like**.
 

@@ -41,6 +41,11 @@ def divide_chunks(track_list, n):
         yield track_list[i:i + n]
 
 def playlist_union(username, destination_playlist, source_playlists):
+    '''
+    Given username, destination playlist and source playlists, the function
+    adds all the songs in the list of source playlists into the destination
+    playlist. 
+    '''
     # use 'playlist-modify-private' if you also want to modify private playlists
     scope = 'playlist-modify-public'
     token = util.prompt_for_user_token(username, scope,
